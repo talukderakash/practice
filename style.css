@@ -1,6 +1,31 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .or{
     color: darkorchid;
+}
+section{
+    display: flex;
+}
+.helf-weidth{
+    width: 50%;
+    padding-left: 5%;}
+
+.helf-weidth img{
+    width: 76%;
+}
+.cbutton{
+padding: 10px 40px;
+background-image: linear-gradient(orange, tomato);
+color: white;
+font-weight: 800;
+border: none;
+border-radius: 5px;
+text-decoration: none;
+}
+.top-banner{
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  
 }
