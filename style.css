@@ -5,7 +5,7 @@ body{
 .or{
     color: darkorchid;
 }
-section{
+.flex-bannar{
     display: flex;
     margin-bottom: 150px;
 }
@@ -29,4 +29,37 @@ text-decoration: none;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
   
+}
+.las{
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.box{
+    box-shadow: lef;
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: rgb(76, 67, 155) solid 10px ;
+    
+}
+.backround{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+#web{
+
+border-image: linear-gradient(blue tomato);
+border-image-slice: 1;
+border-left:  7px solid;
+
+}
+
+.pl{
+    text-align: center;
+    color: greenyellow;
 }
